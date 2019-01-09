@@ -44,6 +44,8 @@
 }
 .icon img{
 	height:30px;
+	object-fit: contain;
+	margin-left: 30px;
 }
 .profile{
 	

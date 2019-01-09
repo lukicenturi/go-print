@@ -21,7 +21,7 @@
             <div class='head'>
                 <div class='icon'>
                     <a href="{{url('/')}}">
-                        <img src="{{asset('img/logo.png')}}">
+                        <img src="{{asset('img/logo_test.png')}}">
                     </a>
                 </div>
             </div>

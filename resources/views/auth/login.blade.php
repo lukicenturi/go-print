@@ -9,7 +9,7 @@
 @section('content')
 	<div class='container'>
 		<div class='brand'>
-			<a href="{{url('/')}}"><img src="{{asset('img/logo.png')}}"></a>
+			<a href="{{url('/')}}"><img src="{{asset('img/logo_test.png')}}"></a>
 		</div>
 		<div class='tabs'>
 			<a href="{{url('login')}}" class="active">LOGIN</a>
