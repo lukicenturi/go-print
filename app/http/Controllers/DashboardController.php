@@ -282,7 +282,7 @@ class DashboardController extends Controller
     {
         $deliver = $request['deliver'];
 
-        if ($deliver == 'false') {
+        if ($deliver == 'deliver') {
             $this->validate($request, [
                 'e' => 'required|mimes:docx,doc,pdf',
                 'kode' => 'required',
@@ -387,7 +387,7 @@ class DashboardController extends Controller
         $user = Auth::user();
         $param = [
             'status' => 3,
-            'id_partner' => 8
+            'id_partner' => $user['id']
         ];
 
         $print->update($param);

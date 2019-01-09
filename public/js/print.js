@@ -7,15 +7,13 @@ $(function(){
 	});
 
 	var kode = $("#kodeprint").val();
-	$('#deliver').change(function(){
-		if($(this).is(':checked')){
+	$('[name="deliver_method"]').change(function(){
+		if ($(this).val() == 'deliver') {
 			$(".address-setup").show();
-		}else{
+		} else {
 			$(".address-setup").hide();
 		}
 	});
-
-	$("#deliver").change();
 
 	$(".drop-inside").on("drag dragover dragleave dragenter dragend drop", function(e){
 		e.stopPropagation();
@@ -72,7 +70,7 @@ $(function(){
 		kode = $("#kodeprint").val();
 		size = $("[name='size']").val();
 		copies = $("[name='copies']").val();
-		deliver = $("[name='deliver']").is(":checked");
+		deliver = $("[name='deliver_method']").val();
 		address = $("[name='address']").val();
 		city = $("[name='city']").val();
 		province = $("[name='province']").val();

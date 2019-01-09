@@ -3,7 +3,7 @@
 	<head>
 		<meta name="viewport" content="initial-scale=1,width=device-width">
 		<!-- TITLE PRINTO-->
-		<title>Go-Print</title>
+		<title>CETAKR</title>
 		<link rel="icon" href="img/favicon.ico">
 
 		<!-- CSS -->

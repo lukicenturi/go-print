@@ -6,7 +6,7 @@
 		<div class="section" id="banner">
 			<div class="container">
 				<div class="col-sm-6 caption">
-					<h1>What is Go-Print?</h1>
+					<h1>What is CETAKR?</h1>
 					<p>This is a new solution<br> of online printing</p>
 					<button class="button ghost rounded green" scroll-target="#after-banner">START NOW</button>
 				</div>
@@ -32,8 +32,8 @@
 						<img src="{{asset('img/register.png')}}">
 					</div>
 					<div class="caption">
-						<h1>Register at Go-Print now</h1>
-						<p>Immediately register at Go-Print to start printing your file and get a variety of attractive promotions</p>
+						<h1>Register at CETAKR now</h1>
+						<p>Immediately register at CETAKR to start printing your file and get a variety of attractive promotions</p>
 						<button class="button ghost green">REGISTER</button>
 						<a href="{{url('login')}}"><button class="button black">LOGIN</button></a>
 					</div>
@@ -44,7 +44,7 @@
 					</div>
 					<div class="caption">
 						<h1>Print your file now</h1>
-						<p>Immediately prove our quality by print your file at Go-Print</p>
+						<p>Immediately prove our quality by print your file at CETAKR</p>
 						<button class="button ghost green">START</button>
 					</div>
 				</div>
@@ -60,7 +60,7 @@
 		</div>
 		<div class="section" id="why">
 			<div class="container">
-				<h1 class="section-header">Why Go-Print?</h1>
+				<h1 class="section-header">Why CETAKR?</h1>
 				<div class="item-wrapper">
 					<figure class="item">
 						<img src="{{asset('img/why-1.png')}}">
@@ -140,6 +140,6 @@
 				</div>
 			</div>
 		<footer>
-			@ Copyright PT. Go-Print
+			@ Copyright PT. CETAKR
 		</footer>
 @endsection

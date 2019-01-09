@@ -41,10 +41,16 @@
 						<input type='number' name = 'copies'
 						placeholder='Copies' min='1'>
 						<BR>
-						<input type='checkbox' name='deliver' id='deliver'>
+						<div class="form-group">
+						<input type='radio' name='deliver_method' id='deliver' value="deliver">
 						<label for='deliver'>
 						Deliver it to me
 						</label>
+						</div>
+						<div class="form-group">
+						<input type="radio" name='deliver_method' id='pickup' value='pickup'>
+						<label for='pickup'>Let me pickup the document</label>
+						</div>
 					</div>
 					<div class='address-setup col-sm-6'>
 						<h4>Set address to send</h4>
