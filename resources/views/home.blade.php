@@ -7,7 +7,7 @@
 @endsection
 @section('content1')
     <div class='second-container'>
-        <h3>WELCOME IN Go-Print</h3>
+        <h3>WELCOME IN CETAKR</h3>
         <div class='part-group'>
             @if(Auth::user()->role == 'USER')
             <div class="form">

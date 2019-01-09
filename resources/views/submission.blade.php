@@ -52,7 +52,7 @@
 									</tr>
 									<tr>
 										<td>For Payment:</td>
-										<td><b>Go-Print Coin</b></td>
+										<td><b>CETAKR Coin</b></td>
 									</tr>
 								</tbody>
 							</table>
