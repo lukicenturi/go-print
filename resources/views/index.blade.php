@@ -92,7 +92,7 @@
 		<div class="section" id="steps">
 			<div class="container">
 				<div class="steps-caption">
-				<p>Printing at Go Print is very easy<BR>
+				<p>Printing at CETAKR is very easy<BR>
 				just by <big>4</big> steps</p>
 				</div>
 				<div class='item-wrapper'>

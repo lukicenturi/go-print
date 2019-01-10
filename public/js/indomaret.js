@@ -13,7 +13,7 @@ $(function(){
 				if(response.status == '0'){
 					alert("Code Not Found");
 				}else{
-					var a = confirm("Description: \nFor: PRINTO COIN \nCoin: "+response.coin+" \nAmount: "+response.pay);
+					var a = confirm("Description: \nFor: CETAKR COIN \nCoin: "+response.coin+" \nAmount: "+response.pay);
 					if(a == true){
 						indomaretpay = $("#indomaretpay").val();
 						location.href = indomaretpay+"?code="+code;

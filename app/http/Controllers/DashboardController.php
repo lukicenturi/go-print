@@ -282,7 +282,7 @@ class DashboardController extends Controller
     {
         $deliver = $request['deliver'];
 
-        if ($deliver == 'deliver') {
+        if ($deliver == 'false') {
             $this->validate($request, [
                 'e' => 'required|mimes:docx,doc,pdf',
                 'kode' => 'required',
