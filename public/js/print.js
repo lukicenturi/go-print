@@ -70,7 +70,7 @@ $(function(){
 		kode = $("#kodeprint").val();
 		size = $("[name='size']").val();
 		copies = $("[name='copies']").val();
-		deliver = $("#pickup").is(':checked');
+		deliver = $("#deliver").is(':checked');
 		address = $("[name='address']").val();
 		city = $("[name='city']").val();
 		province = $("[name='province']").val();
